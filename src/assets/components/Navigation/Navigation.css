@@ -1,0 +1,14 @@
+.navigation_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 30px;
+  color: var(--primary-color);
+}

@@ -1,0 +1,10 @@
+.trending_section {
+  padding: 80px 0;
+}
+
+.collection_cards_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}

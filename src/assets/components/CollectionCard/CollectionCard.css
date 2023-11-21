@@ -1,0 +1,29 @@
+.trending_card_container {
+  width: 330px;
+  margin-top: 60px;
+}
+
+.photo_wrapper {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.author span {
+  color: white;
+}
+
+img {
+  transition: transform 0.5s; /* Add a smooth transition effect */
+}
+
+img:hover {
+  transform: scale(0.95); /* Increase the scale for zoom effect */
+}
