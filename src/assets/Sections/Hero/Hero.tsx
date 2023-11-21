@@ -1,6 +1,6 @@
 import Button from "../../components/Button/Button";
-import nft_card_photo from "../../images/nft_for_hero_section_card.svg";
-import hero_nft_author from "../../images/hero_nft_author.svg";
+import nft_card_photo from "../../../../public/images/nft_for_hero_section_card.svg";
+import hero_nft_author from "../../../../public/images/hero_nft_author.svg";
 import { FaRocket } from "react-icons/fa6";
 import "./Hero.css";
 

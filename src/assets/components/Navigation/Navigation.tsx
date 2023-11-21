@@ -1,4 +1,4 @@
-import nft_logo from "../../images/nft_logo.svg";
+import nft_logo from "../../../../public/images/nft_logo.svg";
 import Button from "../Button/Button";
 import "./Navigation.css";
 import { LuUser2 } from "react-icons/lu";
