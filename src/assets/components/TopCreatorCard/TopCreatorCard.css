@@ -3,7 +3,7 @@
   padding: 20px;
 
   border-radius: 20px;
-  background: rgba(59, 59, 59, 1);
+  background-color: rgba(59, 59, 59, 1);
 }
 
 .avatar {
@@ -16,7 +16,7 @@
 .top_creator_card_container .number {
   padding: 4px 10px;
   border-radius: 50%;
-  background: rgba(43, 43, 43, 1);
+  background-color: rgba(43, 43, 43, 1);
   color: rgba(133, 133, 132, 1);
 }
 

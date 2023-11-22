@@ -1,0 +1,35 @@
+.category_card_container {
+  width: 240px;
+}
+.images_container {
+  position: relative;
+  width: 240px;
+}
+
+.images_container img {
+  display: block;
+}
+
+.bg_img {
+  filter: blur(10px);
+  -webkit-filter: blur(3px);
+}
+
+.over_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.category_header {
+  padding: 25px 30px;
+  border-radius: 0 0 20px 20px;
+  background-color: #3b3b3b;
+}
+
+.category_headline {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}

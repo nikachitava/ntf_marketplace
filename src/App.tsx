@@ -1,3 +1,4 @@
+import Categories from "./assets/Sections/Categories/Categories";
 import Creators from "./assets/Sections/Creators/Creators";
 import Hero from "./assets/Sections/Hero/Hero";
 import Trending from "./assets/Sections/Trending/Trending";
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <Trending />
         <Creators />
+        <Categories />
       </div>
     </>
   );

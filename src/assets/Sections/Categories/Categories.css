@@ -1,0 +1,10 @@
+.categories_section {
+  position: relative;
+  padding: 80px 0;
+}
+
+.categories_cards_container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+}
