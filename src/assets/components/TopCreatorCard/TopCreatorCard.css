@@ -1,0 +1,35 @@
+.top_creator_card_container {
+  width: 240px;
+  padding: 20px;
+
+  border-radius: 20px;
+  background: rgba(59, 59, 59, 1);
+}
+
+.avatar {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.top_creator_card_container .number {
+  padding: 4px 10px;
+  border-radius: 50%;
+  background: rgba(43, 43, 43, 1);
+  color: rgba(133, 133, 132, 1);
+}
+
+.top_creator_author {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.total_sales {
+  text-align: center;
+  color: rgba(133, 133, 132, 1);
+}

@@ -1,0 +1,16 @@
+.creators_section {
+  padding: 80px 0;
+}
+
+.creators_cards_container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+  margin: 60px 0;
+}
+
+.creator_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

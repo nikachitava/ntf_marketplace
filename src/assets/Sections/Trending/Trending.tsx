@@ -13,7 +13,6 @@ export default function Trending() {
       <div className="collection_cards_container">
         {[1, 2, 3].map((item) => {
           const userKey = `user_${item}` as keyof typeof DATA; // Assert the type of the key
-          console.log(DATA[userKey].username);
           return (
             <CollectionCard
               key={item}
