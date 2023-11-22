@@ -20,10 +20,11 @@
   color: white;
 }
 
-img {
+.trending_card_container img {
   transition: transform 0.5s; /* Add a smooth transition effect */
+  cursor: pointer;
 }
 
-img:hover {
+.trending_card_container img:hover {
   transform: scale(0.95); /* Increase the scale for zoom effect */
 }
