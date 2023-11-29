@@ -1,0 +1,16 @@
+.discover_section {
+  padding: 80px 0;
+}
+
+.discover_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.discover_cards_container {
+  display: grid;
+  grid-template: "a a a" auto;
+  gap: 30px;
+}

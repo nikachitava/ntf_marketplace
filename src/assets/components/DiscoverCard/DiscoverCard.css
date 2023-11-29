@@ -1,0 +1,48 @@
+.discover_card_container {
+  width: 330px;
+}
+
+.discover_card_description {
+  padding: 20px 30px;
+  background-color: #3b3b3b;
+  border-radius: 0 0 20px 20px;
+}
+
+.discover_card_description h5 {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.discover_author {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 12px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.discover_author span {
+  color: white;
+  font-family: "Space Mono";
+}
+
+.discover_nft_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discover_nft_info .header {
+  color: rgba(133, 133, 132, 1);
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Space Mono";
+  margin-bottom: 8px;
+}
+
+.discover_nft_info .price {
+  color: white;
+  font-family: "Space Mono";
+}
