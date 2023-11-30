@@ -6,6 +6,7 @@ import HowItWorks from "./assets/Sections/HowItWorks/HowItWorks";
 import MagicMashroom from "./assets/Sections/MagicMashroom/MagicMashroom";
 import Subscribe from "./assets/Sections/Subscribe/Subscribe";
 import Trending from "./assets/Sections/Trending/Trending";
+import Footer from "./assets/components/Footer/Footer";
 import Navigation from "./assets/components/Navigation/Navigation";
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
       <MagicMashroom />
       <HowItWorks />
       <Subscribe />
+
+      <Footer />
     </>
   );
 }
