@@ -1,0 +1,70 @@
+.magic_mashroom_section {
+  /* width: 100%; */
+  background-image: url("images/magic_mashroom_background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 360px 195px 60px;
+}
+
+.magic_mashroom_inner_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mashroom_author_container {
+  width: 151px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #3b3b3b;
+}
+
+.mashroom_author_container span {
+  margin-left: 10px;
+  color: white;
+}
+
+.auction_timer_container {
+  width: 295px;
+  padding: 30px;
+  background-color: rgba(59, 59, 59, 0.5);
+  color: white;
+  border-radius: 20px;
+}
+
+.clock_display {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+
+.auction_header {
+  font-size: 12px;
+  font-family: "Space Mono";
+  font-weight: 400;
+}
+
+.digit {
+  font-size: 38px;
+  font-family: "Space Mono";
+  font-weight: 700;
+}
+
+.clock_digis {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.clock_headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
