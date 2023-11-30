@@ -1,6 +1,6 @@
 .magic_mashroom_section {
   background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #a259ff 100%),
-    url("images/magic_mashroom_background.svg");
+    url("/images/magic_mashroom_background.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
