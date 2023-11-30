@@ -1,0 +1,10 @@
+.howitworks_section {
+  padding: 80px 0;
+}
+
+.info_cards_container {
+  display: grid;
+  grid-template: "a a a" auto;
+  gap: 30px;
+  margin-top: 48px;
+}

@@ -1,0 +1,24 @@
+.info_card_container {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(59, 59, 59, 1);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.info_card_container h5 {
+  color: white;
+  font-size: 22px;
+  font-family: "Work Sans";
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.info_card_container p {
+  color: white;
+  text-align: center;
+  font-family: "Work Sans";
+}
