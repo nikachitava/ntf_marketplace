@@ -4,6 +4,7 @@ import Discover from "./assets/Sections/Discover/Discover";
 import Hero from "./assets/Sections/Hero/Hero";
 import HowItWorks from "./assets/Sections/HowItWorks/HowItWorks";
 import MagicMashroom from "./assets/Sections/MagicMashroom/MagicMashroom";
+import Subscribe from "./assets/Sections/Subscribe/Subscribe";
 import Trending from "./assets/Sections/Trending/Trending";
 import Navigation from "./assets/components/Navigation/Navigation";
 
@@ -19,6 +20,7 @@ function App() {
       <Discover />
       <MagicMashroom />
       <HowItWorks />
+      <Subscribe />
     </>
   );
 }
