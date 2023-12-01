@@ -6,7 +6,7 @@ interface ITrendingCard {
   photo_3: string;
 }
 
-import more_photo from "../../../../public/images/more_photo.svg";
+import more_photo from "/images/more_photo.svg";
 import "./CollectionCard.css";
 
 export const CollectionCard: React.FC<ITrendingCard> = ({
