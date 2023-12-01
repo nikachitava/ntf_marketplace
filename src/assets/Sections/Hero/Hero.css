@@ -1,15 +1,20 @@
+/* General styles for larger screens */
 .hero_section {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 30px;
   padding: 80px 0;
 }
 
-h1 {
+.description {
+  width: 510px;
+  word-wrap: break-word;
+}
+
+.hero_section h1 {
   color: var(--primary-color);
   font-size: 67px;
-  line-height: 73.7px;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -17,7 +22,6 @@ h1 {
 .subtitle {
   font-size: 22px;
   color: var(--primary-color);
-  line-height: 35.2px;
   margin-bottom: 20px;
 }
 
@@ -44,7 +48,14 @@ h4 {
   font-weight: 400;
 }
 
-.hero_card img {
+.hero_nft_card {
+  width: 100%;
+  max-width: 510px;
+}
+
+.hero_nft_card .nft_card_photo {
+  width: 100%;
+  height: auto;
   vertical-align: top;
 }
 
@@ -65,5 +76,31 @@ h4 {
   justify-content: left;
   align-items: center;
   gap: 20px;
-  color: var(--primary-color);
+  color: white;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 834px) {
+  .description {
+    width: 330px;
+  }
+
+  .hero_section h1 {
+    font-size: 38px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .details h4 {
+    font-size: 22px;
+  }
+  .details p {
+    font-size: 16px;
+  }
+
+  .hero_nft_card {
+    width: 330px;
+  }
 }

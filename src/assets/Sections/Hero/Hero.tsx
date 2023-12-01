@@ -17,9 +17,8 @@ export default function Hero() {
             <br /> digital art &<br /> Collect NFTs
           </h1>
           <p className="subtitle">
-            NFT marketplace UI created with Anima for
-            <br /> Figma. Collect, buy and sell art from more
-            <br /> than 20k NFT artists.
+            NFT marketplace UI created with Anima for Figma. Collect, buy and
+            sell art from more than 20k NFT artists.
           </p>
           <div>
             <Button
@@ -46,14 +45,16 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero_nft_card">
-          <div className="hero_card">
-            <img src={nft_card_photo} alt="nft_card_photo" />
-            <div className="hero_nft_card_author_container">
-              <h5>Space Walking</h5>
-              <div className="nft_author">
-                <img src={hero_nft_author} alt="hero_nft_author" />
-                <span>Animakid</span>
-              </div>
+          <img
+            className="nft_card_photo"
+            src={nft_card_photo}
+            alt="nft_card_photo"
+          />
+          <div className="hero_nft_card_author_container">
+            <h5>Space Walking</h5>
+            <div className="nft_author">
+              <img src={hero_nft_author} alt="hero_nft_author" />
+              <span>Animakid</span>
             </div>
           </div>
         </div>

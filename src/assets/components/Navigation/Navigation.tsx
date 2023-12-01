@@ -2,6 +2,7 @@ import nft_logo from "/images/nft_logo.svg";
 import Button from "../Button/Button";
 import "./Navigation.css";
 import { LuUser2 } from "react-icons/lu";
+import { RiMenu2Line } from "react-icons/ri";
 
 export default function Navigation() {
   const handleClick = () => {
@@ -27,6 +28,9 @@ export default function Navigation() {
             />
           </li>
         </ul>
+        <div className="hamburger_menu">
+          <RiMenu2Line size={24} color={"white"} />
+        </div>
       </div>
     </div>
   );

@@ -12,3 +12,17 @@
   gap: 30px;
   color: var(--primary-color);
 }
+
+.hamburger_menu {
+  display: none;
+}
+
+@media (max-width: 834px) {
+  .menu ul {
+    display: none;
+  }
+
+  .hamburger_menu {
+    display: block;
+  }
+}
