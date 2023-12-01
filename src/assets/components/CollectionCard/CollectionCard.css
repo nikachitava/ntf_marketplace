@@ -28,3 +28,9 @@
 .trending_card_container img:hover {
   transform: scale(0.95); /* Increase the scale for zoom effect */
 }
+
+@media (max-width: 834px) {
+  .trending_card_container:nth-child(3) {
+    display: none;
+  }
+}
