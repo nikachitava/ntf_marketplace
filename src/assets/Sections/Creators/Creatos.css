@@ -14,3 +14,12 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 834px) {
+  .creators_section {
+    padding: 40px 0;
+  }
+  .creators_cards_container {
+    grid-template: "a a" auto;
+  }
+}

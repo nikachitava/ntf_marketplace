@@ -19,10 +19,12 @@ export const TopCreatorCard: React.FC<ITopCreator> = ({
         <span className="number">{id}</span>
         <img src={avatar} alt="" />
       </div>
-      <h5 className="top_creator_author">{name}</h5>
-      <p className="total_sales">
-        Total sales: <span style={{ color: "white" }}>{sales} ETH</span>
-      </p>
+      <div className="creator_information">
+        <h5 className="top_creator_author">{name}</h5>
+        <p className="total_sales">
+          Total sales: <span style={{ color: "white" }}>{sales} ETH</span>
+        </p>
+      </div>
     </div>
   );
 };

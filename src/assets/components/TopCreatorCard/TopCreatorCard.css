@@ -33,3 +33,37 @@
   text-align: center;
   color: rgba(133, 133, 132, 1);
 }
+
+@media (max-width: 834px) {
+  .top_creator_card_container:nth-child(n + 7) {
+    display: none;
+  }
+
+  .top_creator_card_container {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .creator_information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    text-align: left;
+  }
+
+  .avatar {
+    position: relative;
+  }
+  .avatar span {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+  }
+
+  .avatar img {
+    width: 60px;
+  }
+}
