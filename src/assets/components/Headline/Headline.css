@@ -1,0 +1,22 @@
+.headline h3 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.headline p {
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}
+
+@media (max-width: 834px) {
+  .headline h3 {
+    font-size: 28px;
+  }
+
+  .headline p {
+    font-size: 16px;
+  }
+}
