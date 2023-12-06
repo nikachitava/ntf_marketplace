@@ -11,6 +11,7 @@
 }
 
 .bg_img {
+  width: 100%;
   filter: blur(10px);
   -webkit-filter: blur(3px);
 }
@@ -32,4 +33,19 @@
   font-size: 22px;
   font-weight: 600;
   color: white;
+}
+
+@media (max-width: 834px) {
+  .category_card_container {
+    width: 150px;
+  }
+  .images_container {
+    width: 150px;
+  }
+  .category_header {
+    padding: 20px 20px 25px 20px;
+  }
+  .category_headline {
+    font-size: 16px;
+  }
 }

@@ -4,7 +4,13 @@
 
 .categories_cards_container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 30px;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 30px;
   margin-top: 60px;
+}
+
+@media (max-width: 834px) {
+  .categories_cards_container {
+    grid-template-columns: repeat(4, auto);
+  }
 }
