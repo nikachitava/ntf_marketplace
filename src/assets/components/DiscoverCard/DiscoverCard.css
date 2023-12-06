@@ -46,3 +46,9 @@
   color: white;
   font-family: "Space Mono";
 }
+
+@media (max-width: 834px) {
+  .discover_card_container:nth-child(n + 3) {
+    display: none;
+  }
+}

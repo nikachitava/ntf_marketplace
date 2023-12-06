@@ -11,6 +11,16 @@
 
 .discover_cards_container {
   display: grid;
-  grid-template: "a a a" auto;
-  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+
+@media (max-width: 834px) {
+  .discover_cards_container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0;
+  }
+  .discover_section {
+    padding: 40px 0;
+  }
 }
