@@ -38,20 +38,20 @@ footer {
   font-family: "Work Sans";
 }
 
-.footer_subscribe {
+.subscribe {
   position: relative;
   display: flex;
   align-items: center;
 }
 
-.footer_subscribe_input {
+.subscribe_input {
   padding: 20px;
   border-radius: 20px;
   outline: none;
   border: none;
 }
 
-.footer_subscribe_button {
+.subscribe_button {
   height: 100%;
   position: absolute;
   display: flex;
@@ -71,4 +71,20 @@ footer {
 hr {
   width: 1050px;
   margin: 20px 0;
+}
+
+@media (max-width: 834px) {
+  footer {
+    justify-content: baseline;
+    align-items: baseline;
+    padding: 40px 72px;
+  }
+  .footer_lists {
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+  }
+  hr {
+    width: 100%;
+  }
 }

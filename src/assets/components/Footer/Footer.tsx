@@ -23,13 +23,13 @@ export default function Footer() {
             Get exclusive promotions & updates
             <br /> straight to your inbox.
           </p>
-          <div className="footer_subscribe">
+          <div className="subscribe">
             <input
               type="text"
               placeholder="Enter your email here"
               className="subscribe_input"
             />
-            <div className="footer_subscribe_button">Subscribe</div>
+            <div className="subscribe_button">Subscribe</div>
           </div>
         </div>
       </div>
