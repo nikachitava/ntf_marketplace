@@ -60,3 +60,60 @@
   text-align: center;
   cursor: pointer;
 }
+
+@media (max-width: 834px) {
+  .subscribe_container {
+    gap: 30px;
+  }
+  .subscribe_section {
+    width: 690px;
+  }
+  .subscribe_box {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subscribe_img {
+    width: 300px;
+    /* height: 100vh; */
+  }
+
+  .subscribe_box h3 {
+    font-size: 28px;
+  }
+  .subscribe_box p {
+    font-size: 16px;
+  }
+
+  .subscribe {
+    position: static;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .subscribe_input {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .subscribe_button {
+    width: 100%;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(162, 89, 255, 1);
+    padding: 12px 50px;
+    color: white;
+    border-radius: 20px;
+    font-family: "Work Sans";
+    text-align: center;
+    cursor: pointer;
+  }
+}

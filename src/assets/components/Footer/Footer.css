@@ -38,20 +38,20 @@ footer {
   font-family: "Work Sans";
 }
 
-.subscribe {
+.footer_subscribe {
   position: relative;
   display: flex;
   align-items: center;
 }
 
-.subscribe_input {
+.footer_subscribe_input {
   padding: 20px;
   border-radius: 20px;
   outline: none;
   border: none;
 }
 
-.subscribe_button {
+.footer_subscribe_button {
   height: 100%;
   position: absolute;
   display: flex;
