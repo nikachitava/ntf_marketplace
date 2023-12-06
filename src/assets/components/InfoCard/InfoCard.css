@@ -9,6 +9,10 @@
   padding: 30px;
 }
 
+.info_card_header {
+  text-align: center;
+}
+
 .info_card_container h5 {
   color: white;
   font-size: 22px;
@@ -21,4 +25,40 @@
   color: white;
   text-align: center;
   font-family: "Work Sans";
+}
+
+@media (max-width: 834px) {
+  .info_card_container {
+    width: 210px;
+    padding: 20px;
+  }
+  .info_card_container img {
+    width: 160px;
+  }
+  .info_card_container h5 {
+    font-size: 16px;
+  }
+  .info_card_container p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 375px) {
+  .info_card_container {
+    width: 315px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .info_card_container img {
+    width: 100px;
+  }
+
+  .info_card_header h5 {
+    text-align: left;
+  }
+  .info_card_header p {
+    text-align: left;
+  }
 }

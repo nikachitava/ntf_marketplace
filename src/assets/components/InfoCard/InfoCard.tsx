@@ -14,8 +14,10 @@ export const InfoCard: React.FC<IInfoCardProps> = ({
   return (
     <div className="info_card_container">
       <img src={img} alt="img" />
-      <h5>{title}</h5>
-      <p>{subtitle}</p>
+      <div className="info_card_header">
+        <h5>{title}</h5>
+        <p>{subtitle}</p>
+      </div>
     </div>
   );
 };

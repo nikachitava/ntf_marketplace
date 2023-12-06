@@ -8,3 +8,9 @@
   gap: 30px;
   margin-top: 48px;
 }
+
+@media (max-width: 375px) {
+  .info_cards_container {
+    grid-template: "a" auto;
+  }
+}
