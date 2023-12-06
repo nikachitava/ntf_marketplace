@@ -15,7 +15,7 @@ const MagicMashroom: React.FC = () => {
             <img src="images/magic_mashroom_author.svg" alt="mashroom" />
             <span className="mashroom_author">Shroomie</span>
           </div>
-          <h1>Magic Mashroom</h1>
+          <h1 className="auction_headline">Magic Mashroom</h1>
           <Button
             icon={<IoEyeSharp />}
             label="See NFT"

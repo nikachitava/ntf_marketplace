@@ -28,43 +28,10 @@
   color: white;
 }
 
-.auction_timer_container {
-  width: 295px;
-  padding: 30px;
-  background-color: rgba(59, 59, 59, 0.5);
+.auction_headline {
+  font-size: 51px;
+  font-weight: 600;
+  font-family: "Work Sans";
   color: white;
-  border-radius: 20px;
-}
-
-.clock_display {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  gap: 20px;
-}
-
-.auction_header {
-  font-size: 12px;
-  font-family: "Space Mono";
-  font-weight: 400;
-}
-
-.digit {
-  font-size: 38px;
-  font-family: "Space Mono";
-  font-weight: 700;
-}
-
-.clock_digis {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 15px;
-}
-
-.clock_headers {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
+  margin: 30px 0;
 }
