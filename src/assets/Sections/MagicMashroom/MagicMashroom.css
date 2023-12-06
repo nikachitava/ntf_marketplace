@@ -38,7 +38,7 @@
 
 @media (max-width: 834px) {
   .magic_mashroom_section {
-    width: 834px;
+    overflow: hidden;
     padding: 360px 82px 60px;
   }
 }
