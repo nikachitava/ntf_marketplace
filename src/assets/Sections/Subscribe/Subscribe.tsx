@@ -13,13 +13,13 @@ export default function Subscribe() {
         <div className="subscribe_box">
           <h3>Join Our Weekly Digest</h3>
           <p>Get exclusive promotions & updates straight to your inbox.</p>
-          <div className="subscribe">
+          <div className="subscribe_email">
             <input
               type="text"
               placeholder="Enter your email here"
-              className="subscribe_input"
+              className="subscribe_email_input"
             />
-            <div className="subscribe_button">
+            <div className="subscribe_email_button">
               <MdOutlineEmail />
               Subscribe
             </div>
