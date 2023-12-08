@@ -104,3 +104,23 @@ h4 {
     width: 330px;
   }
 }
+
+@media (max-width: 376px) {
+  .hero_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user_preview {
+    gap: 30px;
+  }
+  
+}

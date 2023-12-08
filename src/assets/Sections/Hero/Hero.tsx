@@ -12,10 +12,7 @@ export default function Hero() {
     <div className="container">
       <section className="hero_section">
         <div className="description">
-          <h1>
-            Discover
-            <br /> digital art &<br /> Collect NFTs
-          </h1>
+          <h1>Discover digital art & Collect NFTs</h1>
           <p className="subtitle">
             NFT marketplace UI created with Anima for Figma. Collect, buy and
             sell art from more than 20k NFT artists.
