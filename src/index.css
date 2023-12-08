@@ -30,3 +30,9 @@ body {
     padding: 0 72px;
   }
 }
+
+@media (max-width: 376px) {
+  .container {
+    padding: 0 30px;
+  }
+}
