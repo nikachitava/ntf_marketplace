@@ -19,13 +19,15 @@ export default function Creators() {
               subtitle="Checkout Top Rated Creators on the NFT Marketplace"
             />
           </div>
-          <Button
-            icon={<FaRocket color="#a259ff" size={20} />}
-            label="View Rankings"
-            fill={false}
-            color="white"
-            onClick={handleClick}
-          />
+          <div className="button_container">
+            <Button
+              icon={<FaRocket color="#a259ff" size={20} />}
+              label="View Rankings"
+              fill={false}
+              color="white"
+              onClick={handleClick}
+            />
+          </div>
         </div>
         <div className="creators_cards_container">
           {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((item) => {

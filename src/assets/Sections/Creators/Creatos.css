@@ -23,3 +23,13 @@
     grid-template: "a a" auto;
   }
 }
+
+
+@media (max-width: 376px) {
+  .creators_cards_container {
+    grid-template: "a" auto;
+  }
+  .button_container {
+    display: none;
+  }
+}
