@@ -42,3 +42,14 @@
     padding: 360px 82px 60px;
   }
 }
+
+@media (max-width: 376px) {
+  .magic_mashroom_section {
+    overflow: hidden;
+    padding: 120px 30px 40px;
+  }
+  .magic_mashroom_inner_container {
+    display: flex;
+    flex-direction: column;
+  }
+}
