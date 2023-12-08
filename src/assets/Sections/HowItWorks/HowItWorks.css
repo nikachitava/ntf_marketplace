@@ -9,7 +9,7 @@
   margin-top: 48px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .info_cards_container {
     grid-template: "a" auto;
   }

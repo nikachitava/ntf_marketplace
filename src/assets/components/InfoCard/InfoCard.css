@@ -42,7 +42,7 @@
     font-size: 12px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .info_card_container {
     width: 315px;
     display: flex;
