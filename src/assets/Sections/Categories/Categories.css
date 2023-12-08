@@ -14,3 +14,9 @@
     grid-template-columns: repeat(4, auto);
   }
 }
+
+@media (max-width: 376px) {
+  .categories_cards_container {
+    grid-template-columns: repeat(2, auto);
+  }
+}
