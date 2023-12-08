@@ -35,7 +35,7 @@ export default function Footer() {
       </div>
       <hr />
       <div>
-        <p>Ⓒ NFT Market. Use this template freely.</p>
+        <p className="copyright">Ⓒ NFT Market. Use this template freely.</p>
       </div>
     </footer>
   );

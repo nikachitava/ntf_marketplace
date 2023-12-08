@@ -88,3 +88,36 @@ hr {
     width: 100%;
   }
 }
+
+@media (max-width: 834px) {
+  footer {
+    padding: 40px 30px;
+  }
+
+  .col_1, .col_2, .col_3{
+    width: 315px;
+  }
+  
+
+  .subscribe {
+    position: static;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+  }
+  .subscribe_input {
+    width: 315px;
+
+  }
+  .subscribe_button {
+    width: 315px;
+    padding: 13px 102px;
+    position: static;
+  }
+  .copyright {
+    font-size: 12px;
+  }
+}
+
