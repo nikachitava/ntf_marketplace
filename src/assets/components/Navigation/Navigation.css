@@ -26,3 +26,9 @@
     display: block;
   }
 }
+
+@media (max-width: 376px) {
+  .navigation_container {
+    padding: 15px 30px;
+  }
+}

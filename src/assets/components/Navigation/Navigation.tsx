@@ -10,28 +10,28 @@ export default function Navigation() {
   };
   return (
     <div className="navigation_container">
-      <div className="logo">
-        <img src={nft_logo} alt="logo" />
-      </div>
-      <div className="menu">
-        <ul>
-          <li>Marketplace</li>
-          <li>Rankings</li>
-          <li>Connect a wallet</li>
-          <li>
-            <Button
-              icon={<LuUser2 size={20} />}
-              label="Sign Up"
-              fill
-              color="white"
-              onClick={handleClick}
-            />
-          </li>
-        </ul>
-        <div className="hamburger_menu">
-          <RiMenu2Line size={24} color={"white"} />
+        <div className="logo">
+            <img src={nft_logo} alt="logo" />
         </div>
-      </div>
+        <div className="menu">
+            <ul>
+                <li>Marketplace</li>
+                <li>Rankings</li>
+                <li>Connect a wallet</li>
+                <li>
+                    <Button
+                        icon={<LuUser2 size={20} />}
+                        label="Sign Up"
+                        fill
+                        color="white"
+                        onClick={handleClick}
+                    />
+                </li>
+            </ul>
+            <div className="hamburger_menu">
+                <RiMenu2Line size={24} color={"white"} />
+            </div>
+        </div>
     </div>
   );
 }

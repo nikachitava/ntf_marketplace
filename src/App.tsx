@@ -21,7 +21,7 @@ function App() {
       <Discover />
       <MagicMashroom />
       <HowItWorks />
-      <Subscribe />
+      <Subscribe /> 
 
       <Footer />
     </>
