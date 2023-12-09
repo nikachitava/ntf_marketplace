@@ -1,13 +1,20 @@
 .button_container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 20px 50px;
   gap: 12px;
   border-radius: 20px;
   cursor: pointer;
   border: 0;
-  outline: 0;
+  outline: 0; 
+}
+
+.button_container p {
+  font-family: 'Work Sans';
+  font-weight: 600;
+  line-height: 22.4px;
+  font-size: 16px;
 }
 
 .filled_button {

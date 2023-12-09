@@ -1,0 +1,19 @@
+.singup_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.singup_container img {
+    display: inline-block;
+}
+
+.singup_container form {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+}
+
+.singup_form_container {
+    width: 610px;
+}

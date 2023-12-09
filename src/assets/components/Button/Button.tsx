@@ -1,7 +1,7 @@
 import "./Button.css";
 
 interface myButtonProps {
-  icon: JSX.Element;
+  icon?: JSX.Element;
   label: string;
   fill: boolean;
   color: string;
