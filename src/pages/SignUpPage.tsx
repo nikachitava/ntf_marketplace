@@ -13,31 +13,20 @@ export default function SingUpPage() {
   };
   return (
     <div className="singup_container">
-      <img src={marketplace_image} alt="marketplace_image" />
+      <div className="img_container">
+        <img
+          src={marketplace_image}
+          alt="marketplace_image"
+          className="marketplace_image"
+        />
+      </div>
       <div className="singup_form_container">
-        <h1
-          style={{
-            fontSize: "51px",
-            color: "white",
-            fontFamily: "Work Sans",
-            marginBottom: "20px",
-          }}
-        >
-          Create Account
-        </h1>
-        <p
-          style={{
-            fontSize: "22px",
-            color: "white",
-            fontFamily: "Work Sans",
-            lineHeight: "35.2px",
-            marginBottom: "40px",
-          }}
-        >
+        <h1 className="create_account_header">Create Account</h1>
+        <p className="create_account_subtitle">
           Welcome! enter your details and start creating, collecting and selling
           NFTs.
         </p>
-        <form>
+        <div className="form">
           <FormInput icon={<LuUser />} placeholder={"UserName"} />
           <FormInput icon={<TfiEmail />} placeholder={"Email Address"} />
           <FormInput icon={<CiLock />} placeholder={"Password"} />
@@ -48,7 +37,7 @@ export default function SingUpPage() {
             color="white"
             onClick={handleClick}
           />
-        </form>
+        </div>
       </div>
     </div>
   );
