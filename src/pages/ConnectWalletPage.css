@@ -30,3 +30,21 @@
     flex-direction: column;
     gap: 20px;
 }
+
+@media (max-width: 834px) { 
+    .connect_wallet_header {
+        font-size: 38px;
+        line-height: 45.6px;
+    }
+    .connect_wallet_subtitle {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+}
+
+@media (max-width: 376px) {
+    .connect_wallet_container {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+}

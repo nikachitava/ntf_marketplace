@@ -18,8 +18,8 @@ export default function ConnectWalletPage() {
       <div className="wallet_section_container">
         <h1 className="connect_wallet_header">Connect Wallet</h1>
         <p className="connect_wallet_subtitle">
-          Choose a wallet you want to connect. There are several wallet
-          providers.
+          Choose a wallet you want to connect. <br />
+          There are several wallet providers.
         </p>
         <div className="wallet_cards_container">
           <WalletCard logo={meta_mask} name="Metamask" />
